@@ -1,0 +1,58 @@
+@baseUrl = http://localhost:4096
+@resourecesName = suppliers
+# cities
+
+# @name GetAllCities
+GET {{baseUrl}}/cities
+
+###
+
+# districts
+
+# @name GetAllDistricts
+GET {{baseUrl}}/districts
+
+###
+
+# wards
+
+# @name GetAllWards
+GET {{baseUrl}}/wards
+
+###
+
+# suppliers
+
+# @name GetAllSuppliers
+GET {{baseUrl}}/{{resourecesName}}
+
+###
+
+# @name GetWithLimit
+GET {{baseUrl}}/{{resourecesName}}?_page=5&_limit=10
+###
+# @name GetOneSuplliers
+GET {{baseUrl}}/{{resourecesName}}/45
+###
+
+# @name RemoveASuppliers
+DELETE {{baseUrl}}/{{resourecesName}}/1
+
+###
+
+# @name FilterSuppliers
+
+GET {{baseUrl}}/{{resourecesName}}/search?_page=1&_limit=10&_keyword=NC00001&_status
+
+###
+# @name PostSearch
+POST {{baseUrl}}/{{resourecesName}}?_page=1&_limit=5
+Content-Type: application/json
+{
+  "status": true
+}
+###
+
+# @name SearchRoute
+
+GET {{baseUrl}}/suppliers/search?status=true

@@ -1,0 +1,165 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "Hà Nội"
+    },
+    {
+      "id": 2,
+      "name": "Đà Nẵng"
+    },
+    {
+      "id": 3,
+      "name": "Hồ Chí Minh"
+    }
+  ],
+  "districts": [
+    {
+      "id": 1,
+      "name": "Hai Bà Trưng",
+      "cityId": 1
+    },
+    {
+      "id": 2,
+      "name": "Đống Đa",
+      "cityId": 1
+    },
+    {
+      "id": 3,
+      "name": "Hải Châu",
+      "cityId": 2
+    },
+    {
+      "id": 4,
+      "name": "Ngũ Hành Sơn",
+      "cityId": 2
+    },
+    {
+      "id": 5,
+      "name": "Thủ Đức",
+      "cityId": 3
+    },
+    {
+      "id": 6,
+      "name": "Gò Vấp",
+      "cityId": 3
+    }
+  ],
+  "wards": [
+    {
+      "id": 1,
+      "name": "Phường 1",
+      "districtId": 1
+    },
+    {
+      "id": 2,
+      "name": "Phường 2",
+      "districtId": 1
+    },
+    {
+      "id": 3,
+      "name": "Phường 1",
+      "districtId": 2
+    },
+    {
+      "id": 4,
+      "name": "Phường 2",
+      "districtId": 2
+    },
+    {
+      "id": 5,
+      "name": "Phường 1",
+      "districtId": 3
+    },
+    {
+      "id": 6,
+      "name": "Phường 2",
+      "districtId": 3
+    },
+    {
+      "id": 7,
+      "name": "Phường 1",
+      "districtId": 4
+    },
+    {
+      "id": 8,
+      "name": "Phường 2",
+      "districtId": 4
+    },
+    {
+      "id": 9,
+      "name": "Phường 1",
+      "districtId": 5
+    },
+    {
+      "id": 10,
+      "name": "Phường 2",
+      "districtId": 5
+    },
+    {
+      "id": 11,
+      "name": "Phường 1",
+      "districtId": 6
+    },
+    {
+      "id": 12,
+      "name": "Phường 2",
+      "districtId": 6
+    }
+  ],
+
+  "suppliers": [
+    {
+      "id": 1,
+      "maNCC": "NC00001",
+      "tenNCC": "Nhà cung cấp 1",
+      "danhMuc": "Ngành may mặc",
+      "code": "321",
+      "congno": "111112021",
+      "phone": "0358749335",
+      "email": "abc123@gmail.com",
+      "address": {
+        "cityId": 1,
+        "district": 1,
+        "ward": 1,
+        "specific": "71 Núi Thành"
+      },
+      "status": true
+    },
+    {
+      "id": 2,
+      "maNCC": "NC00002",
+      "tenNCC": "Nhà cung cấp 2",
+      "danhMuc": "Ngành điện tử",
+      "code": "456",
+      "congno": "20212022",
+      "phone": "0365897412",
+      "email": "abc123@gmail.com",
+      "address": {
+        "cityId": 2,
+        "district": 2,
+        "ward": 2,
+        "specific": "123 Đường 2/9"
+      },
+      "status": false
+    },
+    {
+      "id": 3,
+      "maNCC": "NC00003",
+      "tenNCC": "Nhà cung cấp 3",
+      "danhMuc": "Ngành thực phẩm",
+      "code": "789",
+      "congno": "20222324",
+      "phone": "0387654321",
+      "email": "abc123@gmail.com",
+      "address": {
+        "cityId": 3,
+        "district": 3,
+        "ward": 3,
+        "specific": "999 Điện Biên Phủ"
+      },
+      "status": true
+    }
+  ]
+
+}
